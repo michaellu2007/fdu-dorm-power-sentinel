@@ -1,0 +1,16 @@
+# 本地隐私文件：绝不能进公开仓库
+config.json
+cookies.txt
+state.json
+monitor.log*
+shutdown_cancelled.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+roommates.txt
+.zcode/
+住宿区域用电情况.xlsx
+*.xlsx
+!config.example.json

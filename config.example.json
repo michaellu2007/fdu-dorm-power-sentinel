@@ -1,0 +1,42 @@
+{
+  "uis": {
+    "student_id": "YOUR_STUDENT_ID",
+    "password": "YOUR_UIS_PASSWORD"
+  },
+  "smtp": {
+    "host": "mail.fudan.edu.cn",
+    "port": 465,
+    "ssl": true,
+    "user": "YOUR_MAIL@m.fudan.edu.cn",
+    "password": "YOUR_MAIL_PASSWORD",
+    "to": [
+      "YOUR_MAIL@m.fudan.edu.cn",
+      "ROOMMATE_1@m.fudan.edu.cn",
+      "ROOMMATE_2@m.fudan.edu.cn"
+    ],
+    "imap_host": "imap.163.com"
+  },
+  "alert": {
+    "alert_window_hours": 12,
+    "cold_start_threshold_kwh": 5.0,
+    "interval_minutes": 30,
+    "fast_check_below_hours": 6,
+    "repeat_interval_hours": 12,
+    "silent_start": "23:00",
+    "silent_end": "08:00",
+    "snooze_hours": 24,
+    "safe_skip_minutes": 120
+  },
+  "shutdown": {
+    "enabled": true,
+    "night_start": "00:00",
+    "night_end": "07:00",
+    "day_trigger_minutes": 10,
+    "night_trigger_minutes": 40,
+    "day_countdown_seconds": 60,
+    "night_countdown_seconds": 600,
+    "p_day_trigger_minutes": 20,
+    "p_night_trigger_minutes": 60
+  },
+  "proxy": ""
+}
